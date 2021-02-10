@@ -9,9 +9,9 @@ int main()
 	string answer;
 
 	cout << "===============================" << endl;
-	cout << "Some people is going" << endl;
-	cout << "although they don't have shoes" << endl;
-	cout << "It doesn't matter to them" << endl;
+	cout << "Kill it kill them all!" << endl;
+	cout << "Oh, where is item?" << endl;
+	cout << "No way not yet?" << endl;
 	cout << "===============================" << endl;
 	cout << "It will be saved on file \"haiku.txt\"" << endl;
 	cout << "If you want to save. Type \"Yes\" or \"No\" please : ";
@@ -29,9 +29,9 @@ int main()
 		outputStream.open("haiku.txt");
 		if (outputStream)
 		{
-			outputStream << "Some people is going" << endl;
-			outputStream << "although they don't have shoes" << endl;
-			outputStream << "It doesn't matter to them";
+			outputStream << "kill it kill them all!" << endl;
+			outputStream << "Oh, where is item?" << endl;
+			outputStream << "No way not yet?";
 			outputStream.close();
 		}
 		else
